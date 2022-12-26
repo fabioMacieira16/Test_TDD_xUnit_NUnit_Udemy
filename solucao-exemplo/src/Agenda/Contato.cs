@@ -2,15 +2,18 @@
 {
     public class Contato
     {
+        string connectio;
+
         public void Adcionar(string id, string nome)
         {
             string conect = @"Data source=";
 
         }
 
-        public void Obter(string id)
+        public List<Contato> ObterTodos(string id)
         {
-            string conect = @"Data source=";
+            var contatos = new List<Contato>();
+            using (var con = )
 
         }
     }
