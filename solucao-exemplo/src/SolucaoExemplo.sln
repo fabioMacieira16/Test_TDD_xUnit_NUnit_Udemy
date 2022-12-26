@@ -1,14 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda", "Agenda\Agenda.csproj", "{C5C20D49-BD41-4E7C-AB24-3F1C100E7E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contatos", "Contatos\Contatos.csproj", "{F6634BC5-22B5-4E85-9680-1DDA729F48BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5C20D49-BD41-4E7C-AB24-3F1C100E7E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C20D49-BD41-4E7C-AB24-3F1C100E7E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C20D49-BD41-4E7C-AB24-3F1C100E7E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C20D49-BD41-4E7C-AB24-3F1C100E7E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6634BC5-22B5-4E85-9680-1DDA729F48BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6634BC5-22B5-4E85-9680-1DDA729F48BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6634BC5-22B5-4E85-9680-1DDA729F48BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6634BC5-22B5-4E85-9680-1DDA729F48BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B3763A3-BE9B-4327-ACDE-63FF785F52EB}
 	EndGlobalSection
 EndGlobal
